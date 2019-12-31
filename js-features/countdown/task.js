@@ -1,3 +1,5 @@
+// таймер обратного отсчёта
+
 let counter = setInterval(() => {
 	const timer = document.getElementById('timer');
 	if (timer.textContent == 0) {

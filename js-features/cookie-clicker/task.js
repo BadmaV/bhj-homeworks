@@ -1,3 +1,5 @@
+// Изменение размера изображения
+
 const cookieClick = document.getElementById('cookie');
 cookieClick.onclick = function() {
 	const clicker = document.getElementById('clicker__counter');
@@ -8,8 +10,6 @@ cookieClick.onclick = function() {
 		cookieClick.width = 200;
 	}
 }
-
-
 
 
 
