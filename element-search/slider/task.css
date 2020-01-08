@@ -1,10 +1,12 @@
 body {
   margin: 0;
 }
+
 .slider {
   position: relative;
   height: 300px;
 }
+
 .slider__items {
   height: 100%;
 }
@@ -31,7 +33,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0
 }
 
 .slider__arrow {
@@ -63,7 +65,6 @@ body {
   right: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .slider__dot {
@@ -72,7 +73,7 @@ body {
   border-radius: 50%;
   background: #000;
   margin-right: 5px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .slider__dot_active {
@@ -82,3 +83,10 @@ body {
 .slider__dot:hover {
   background: #fff;
 }
+
+
+
+
+
+
+
